@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <!-- <h1>{{ msg }}</h1> -->
     <div class="text_header">
       
     <p style="
-          color: #333; margin-left:150px "><img class="clock" src="../image/clock.png">
+          color: #333; margin-left:120px "><img class="clock" src="../image/clock.png">
       Mon - Tues : 6.00 am - 10.00 pm
     </p>
     <p style="margin-left: 105px;  color: #333;"><img class="location" src="../image/blacklocation.png">150 Street, London, USA</p>
@@ -103,7 +103,7 @@ export default {
 }
 .location{
   position: absolute;
-  left: 31.5%;
+  left: 36.5%;
   width:20px;
 }
 .text_header {
@@ -129,7 +129,7 @@ button {
         transition: all .3s;
 }
 .header_button{
-margin-left: 37%;
+margin-left: 30%;
 }
 
 
@@ -143,8 +143,7 @@ margin-left: 37%;
 }
 .combined{
     width:100%;
-   /* position: -webkit-sticky; */
-    position: fixed;
+    position: sticky;
     top: 80px;
     z-index: 999;
     background: #fff;
@@ -199,8 +198,9 @@ img{
         }
 
         .list {
+          padding-right: 20px;
           display: flex;
-          margin-left: 750px;
+          margin-left: 550px;
         }
 
 </style>

@@ -70,9 +70,9 @@ export default {
 .slick-slider {
     position: relative;
     display: block;
-     box-sizing: border-box;
-      user-select: none;
-     touch-action: pan-y;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
     color: transparent;
 }
@@ -163,8 +163,8 @@ img svg{
     font-size: 16px;
     margin-bottom: 5px;
     position: relative;
-       margin-right: 40px;
-       text-align: justify;
+    margin-right: 40px;
+    text-align: justify;
     /* bottom: 50px; */
 }
 .wrap_text{
@@ -190,8 +190,8 @@ img svg{
     }
     .align_all{
         display: flex;
-        width: 1070px;
-        margin-left: 150px;
+        width: 1050px;
+        margin-left: 0px;
     }
 
 </style>
