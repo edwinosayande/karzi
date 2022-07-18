@@ -123,7 +123,7 @@ export default {
     top: 0;
 }
 .container {
-    width: 1140px;
+    max-width: 1140px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -133,7 +133,7 @@ export default {
 .col-lg-5 {
     flex: 0 0 41.666667%;
     width: 41.666667%;
-    position: relative;
+    position: absolute;
     right: 50px;
     margin-left: 60px;
     padding-right: 15px;
@@ -263,19 +263,16 @@ h4 {
 
 .contact-text {
     width: 400px;
-    margin-left: 90px;
+    margin-left: 10px;
 }
 .contact-area form {
-    /* overflow: hidden; */
+    max-width: 100%;
     margin: 0 -15px;
 }
 .contact-area form div {
     padding: 0 15px 15px;
 }
 
- .contact-area form div {
-    padding: 0 15px 15px;
-}
 .email_family {
     position:relative;
     top: 80px;
