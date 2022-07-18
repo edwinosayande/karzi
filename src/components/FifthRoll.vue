@@ -151,6 +151,7 @@ export default {
     margin-bottom: 35px;
 }
 .text-center {
+    margin-top: 40px;
     text-align: center!important;
 }
 .place-header-1 span, .place-header span {
@@ -161,7 +162,7 @@ export default {
     margin-bottom: 10px;
 }
 .place-header-1 h2 {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .place-header-1 h2, .place-header h2 {
     font-size: 36px;
